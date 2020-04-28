@@ -35,6 +35,29 @@ class ResourceManager(object):
                 'S2': 'tpxo9_netcdf/h_tpxo9.v1.nc',
             },],
         },
+        'tpxo9-atlas': {
+            'resource_atts': {
+                'url': None,
+                'archive': 'gz',
+            },
+            'dataset_atts': {
+                'units_multiplier': 0.001,  # mm to meter
+            },
+            'consts': [{  # grouped by dimensionally compatible files
+                '2N2': 'h_2n2_tpxo9_atlas_30_v2.nc',
+                'K1': 'h_k1_tpxo9_atlas_30_v2.nc',
+                'K2': 'h_k2_tpxo9_atlas_30_v2.nc',
+                'M2': 'h_m2_tpxo9_atlas_30_v2.nc',
+                'M4': 'h_m4_tpxo9_atlas_30_v2.nc',
+                'MN4': 'h_mn4_tpxo9_atlas_30_v2.nc',
+                'MS4': 'h_ms4_tpxo9_atlas_30_v2.nc',
+                'N2': 'h_n2_tpxo9_atlas_30_v2.nc',
+                'O1': 'h_o1_tpxo9_atlas_30_v2.nc',
+                'P1': 'h_p1_tpxo9_atlas_30_v2.nc',
+                'Q1': 'h_q1_tpxo9_atlas_30_v2.nc',
+                'S2': 'h_s2_tpxo9_atlas_30_v2.nc',
+            }, ],
+        },
         'tpxo8': {
             'resource_atts': {
                 'url': "ftp://ftp.oce.orst.edu/dist/tides/TPXO8_atlas_30_v1_nc/",
